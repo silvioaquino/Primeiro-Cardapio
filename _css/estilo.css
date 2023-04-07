@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body {
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+}
+
+div#interfaceal {
+	width: 750px;
+	background-color: #ffffff;
+	margin: 5px auto 5px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	padding: 1px;
+}
+
+header#cabecalhoal img#icone {
+	position: relative;
+	left: 250px;
+	top: 0px;
+	
+}	
+
+header#cabecalhoal {
+	border-bottom: 1px #606060 solid;
+	height: 140px;
+}
+header#cabecalhoal h2 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #606060;
+	line-height: 0;
+}
+
+header#cardapio h1 {
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	color: #0000FF;
+	line-height: 0.2;
+	
+}
+header#cardapio h2 {
+	font-family: Arial, sans-serif;
+	font-size: 45px;
+	line-height: 0.7;
+	
+}
+header#cardapio p {
+	font-size: 10px;
+	text-indent: 50px;
+	line-height: 0.3;
+}
+header#cardapio h3 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	line-height: 0.3;
+}
+header#cardapio h4 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	line-height: 0.1;
+
+}
+header#cardapio h5 {
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+	color: 	#307242;
+	line-height: 0.1;
+	
+}
+
+/*Formatção wifi */
+
+header#wifi h1 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	color: 	blue;
+	line-height: 0.5;
+	
+}
+
+/*Formatção Menu */
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	left: 500px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+	
+}
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+	
+}
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: 
+}
+
+
+footer#rodape {
+	clear: both;
+}
+
+/*Formatção MODAL */
+.modal-container {
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0,0,0,.5);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		s-index: 2000;
+		display: none;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.modal-container.mostrar {
+		display: flex;
+	}
+
+	.modal {
+		background:;
+		width: 99%;
+		height:10%;
+		min-width: 300px;
+		padding: 1px;
+		
+		
+	}
+	
+	@keyframes modal {
+		from {
+			opacity: 0;
+			transform: translate3d(0, -60px, 0);
+		}
+		to {
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	
+	.mostrar .modal {
+		animation: modal 3s;
+	}

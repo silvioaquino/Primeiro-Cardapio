@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Painel de Controle Almoço</title>
+	<link rel="stylesheet" type="text/css" href="_css/painelal.css"/>
+	
+	
+</head>
+<body>
+<div id="interfacepa">
+		<header id="cabecalhopa">
+			<figure width="0" height="0">
+				<img id="icone" class="logo" src="_imagens/logoemp2.png"/>
+				<figcaption>
+					<h2 align="center">O melhor sabor da região na hora mais gostosa do dia</h2>
+					<h1 style="text-align:center">Painel de Controle das Opções</h1>
+				</figcaption>
+			</figure>
+		</header>
+		
+		<header id="painelalmoco">		
+			<section id="corpo">	
+					<div id="mDivtoscana">
+						<h3>Toscana --------------------------------------</h3>
+						<h1 id="toscana" class="modal-atoscana"><label><input id="check0" type="checkbox" onclick="check0()" name="toscana" checked>Riscar</label>    
+						<label><input id="check30" type="checkbox" onclick="check30()" name="toscana" checked>Esconder</label></h1>
+					</div>
+				
+					<div id="mDivgguisada">
+						<h3>Galinha Guisada --------------------------</h3>
+						<h1 id="gguisada" class="modal-agguisada"><label><input id="check1" type="checkbox" onclick="check1()" name="gguisada" checked>Riscar</label>    
+						<label><input id="check31" type="checkbox" onclick="check31()" name="gguisada" checked>Esconder</label></h1>
+					</div>
+				
+					<div id="mDivcguisada">
+						<h3>Carne Guisada ----------------------------</h3>
+						<h1 id="cguisada" class="modal-acguisada"><label><input id="check2" type="checkbox" onclick="check2()" name="cguisada" checked>Riscar</label>    
+						<label><input id="check32" type="checkbox" onclick="check32()" name="cguisada" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivgassada">
+						<h3>Galinha Assada ---------------------------</h3>
+						<h1 id="gassada" class="modal-agassada"><label><input id="check3" type="checkbox" onclick="check3()" name="gassada" checked>Riscar</label>    
+						<label><input id="check33" type="checkbox" onclick="check33()" name="gassada" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivbife">
+						<h3>Bife Acebolado ----------------------------</h3>
+						<h1 id="bife" class="modal-abife"><label><input id="check4" type="checkbox" onclick="check4()" name="bife" checked>Riscar</label>    
+						<label><input id="check34" type="checkbox" onclick="check34()" name="bife" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivcsol">
+						<h3>Carne de Sol -------------------------------</h3>
+						<h1 id="csol" class="modal-acsol"><label><input id="check5" type="checkbox" onclick="check5()" name="csol" checked>Riscar</label>    
+						<label><input id="check35" type="checkbox" onclick="check35()" name="csol" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivacharque">
+						<h3>Arrumadinho de Charque -------------</h3>
+						<h1 id="segunda1" class="modal-segunda1"><label><input id="check6" type="checkbox" onclick="check6()" name="acharque" checked>Riscar</label>    
+						<label><input id="check36" type="checkbox" onclick="check36()" name="acharque" checked>Esconder</label></h1>
+					</div>
+				
+					<div id="mDivasol">
+						<h3>Arrumadinho de Sol ---------------------</h3>
+						<h1 id="segunda2" class="modal-segunda2"><label><input id="check7" type="checkbox" onclick="check7()" name="asol" checked>Riscar</label>    
+						<label><input id="check37" type="checkbox" onclick="check37()" name="asol" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivcmolho">
+						<h3>Cupim ao Molho --------------------------</h3>
+						<h1 id="terca1" class="modal-terca1"><label><input id="check8" type="checkbox" onclick="check8()" name="cmolho" checked>Riscar</label>    
+						<label><input id="check38" type="checkbox" onclick="check38()" name="cmolho" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivcassado">
+						<h3>Cupim Assado -----------------------------</h3>
+						<h1 id="terca2" class="modal-terca2"><label><input id="check9" type="checkbox" onclick="check9()" name="cassado" checked>Riscar</label>    
+						<label><input id="check39" type="checkbox" onclick="check39()" name="cassado" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpfrango">
+						<h3>Parmegiana de Frango -----------------</h3>
+						<h1 id="quarta" class="modal-quarta"><label><input id="check10" type="checkbox" onclick="check10()" name="pfrango" checked>Riscar</label>    
+						<label><input id="check40" type="checkbox" onclick="check40()" name="pfrango" checked>Esconder</label></h1>
+					</div>
+					
+					</section>				
+
+					<aside id="lateral">
+					
+					<div id="mDivlfrango">
+						<h3>Lasanha de Frango ----------------------</h3>
+						<h1 id="quinta1" class="modal-quinta1"><label><input id="check11" type="checkbox" onclick="check11()" name="lfrango" checked>Riscar</label>    
+						<label><input id="check41" type="checkbox" onclick="check41()" name="lfrango" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivlcarne">
+						<h3>Lasanha de Carne ------------------------</h3>
+						<h1 id="quinta2" class="modal-quinta2"><label><input id="check12" type="checkbox" onclick="check12()" name="lcarne" checked>Riscar</label>    
+						<label><input id="check42" type="checkbox" onclick="check42()" name="lcarne" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpcoco">
+						<h3>Peixe ao Coco -----------------------------</h3>
+						<h1 id="sexta1" class="modal-sexta1"><label><input id="check13" type="checkbox" onclick="check13()" name="pcoco" checked>Riscar</label>    
+						<label><input id="check43" type="checkbox" onclick="check43()" name="pcoco" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpfrito">
+						<h3>Peixe Frito ----------------------------------</h3>
+						<h1 id="sexta2" class="modal-sexta2"><label><input id="check14" type="checkbox" onclick="check14()" name="pfrito" checked>Riscar</label>    
+						<label><input id="check44" type="checkbox" onclick="check44()" name="pfrito" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivmvaca">
+						<h3>Mão de Vaca --------------------------------</h3>
+						<h1 id="sabado" class="modal-sabado"><label><input id="check15" type="checkbox" onclick="check15()" name="mvaca" checked>Riscar</label>    
+						<label><input id="check45" type="checkbox" onclick="check45()" name="mvaca" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivfigado">
+						<h3>Figado Acebolado ------------------------</h3>
+						<h1 id="extra11" class="modal-extra11"><label><input id="check16" type="checkbox" onclick="check16()" name="figado" checked>Riscar</label>    
+						<label><input id="check46" type="checkbox" onclick="check46()" name="figado" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpbisteca">
+						<h3>Bisteca Acebolada -----------------------</h3>
+						<h1 id="extra22" class="modal-extra22"><label><input id="check17" type="checkbox" onclick="check17()" name="bisteca" checked>Riscar</label>    
+						<label><input id="check47" type="checkbox" onclick="check47()" name="bisteca" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpAlecotos">
+						<h3>Toscana Eco. ------------------------------</h3>
+						<h1 id="Alecotos2" class="modal-Alecotos2"><label><input id="check18" type="checkbox" onclick="check18()" name="toseco" checked>Riscar</label>    
+						<label><input id="check48" type="checkbox" onclick="check48()" name="toseco" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpAlecogag">
+						<h3>Galinha Guis. Eco. -----------------------</h3>
+						<h1 id="Alecogag2" class="modal-Alecogag2"><label><input id="check19" type="checkbox" onclick="check19()" name="gageco" checked>Riscar</label>    
+						<label><input id="check49" type="checkbox" onclick="check49()" name="gageco" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpAlecogaa">
+						<h3>Galinha Ass. Eco. ------------------------</h3>
+						<h1 id="Alecogaa2" class="modal-Alecogaa2"><label><input id="check20" type="checkbox" onclick="check20()" name="gaaeco" checked>Riscar</label> 
+						<label><input id="check50" type="checkbox" onclick="check50()" name="gaaeco" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpAlecofig">
+						<h3>Figado Eco. --------------------------------</h3>
+						<h1 id="Alecofig2" class="modal-Alecofig2"><label><input id="check21" type="checkbox" onclick="check21()" name="figeco" checked>Riscar</label>    
+						<label><input id="check51" type="checkbox" onclick="check51()" name="figeco" checked>Esconder</label></h1>
+					</div>
+					
+					<div id="mDivpAlecocar">
+						<h3>Figado Eco. --------------------------------</h3>
+						<h1 id="Alecocar2" class="modal-Alecocar2"><label><input id="check22" type="checkbox" onclick="check22()" name="careco" checked>Riscar</label>    
+						<label><input id="check52" type="checkbox" onclick="check52()" name="careco" checked>Esconder</label></h1>
+					</div>
+					
+			</aside>
+		</header>
+
+	
+
+
+		<script>	
+		function check0() {
+		var check0status = document.getElementById("check0").checked;
+		document.getElementById("check0").checked = check0status ;
+		localStorage.setItem('check0', check0status);
+		}
+
+		function check1() {
+		var check1status = document.getElementById("check1").checked;
+		document.getElementById("check1").checked = check1status ;
+		localStorage.setItem('check1', check1status);
+		}      
+
+		function check2() {
+
+		var check2status = document.getElementById("check2").checked;
+		document.getElementById("check2").checked = check2status ;
+		localStorage.setItem('check2', check2status);
+		}             
+				  
+		function check3() {
+
+		var check3status = document.getElementById("check3").checked;
+		document.getElementById("check3").checked = check3status ;
+		localStorage.setItem('check3', check3status);
+		}  
+
+		function check4() {
+
+		var check4status = document.getElementById("check4").checked;
+		document.getElementById("check4").checked = check4status ;
+		localStorage.setItem('check4', check4status);
+		}  
+
+		function check5() {
+
+		var check5status = document.getElementById("check5").checked;
+		document.getElementById("check5").checked = check5status ;
+		localStorage.setItem('check5', check5status);
+		}  
+
+		function check6() {
+
+		var check6status = document.getElementById("check6").checked;
+		document.getElementById("check6").checked = check6status ;
+		localStorage.setItem('check6', check6status);
+		}  
+
+		function check7() {
+
+		var check7status = document.getElementById("check7").checked;
+		document.getElementById("check7").checked = check7status ;
+		localStorage.setItem('check7', check7status);
+		}  
+
+		function check8() {
+
+		var check8status = document.getElementById("check8").checked;
+		document.getElementById("check8").checked = check8status ;
+		localStorage.setItem('check8', check8status);
+		}
+
+		function check9() {
+
+		var check9status = document.getElementById("check9").checked;
+		document.getElementById("check9").checked = check9status ;
+		localStorage.setItem('check9', check9status);
+		}
+
+		function check10() {
+
+		var check10status = document.getElementById("check10").checked;
+		document.getElementById("check10").checked = check10status ;
+		localStorage.setItem('check10', check10status);
+		}
+
+		function check11() {
+
+		var check11status = document.getElementById("check11").checked;
+		document.getElementById("check11").checked = check11status ;
+		localStorage.setItem('check11', check11status);
+		}
+
+		function check12() {
+
+		var check12status = document.getElementById("check12").checked;
+		document.getElementById("check12").checked = check12status ;
+		localStorage.setItem('check12', check12status);
+		}
+
+		function check13() {
+
+		var check13status = document.getElementById("check13").checked;
+		document.getElementById("check13").checked = check13status ;
+		localStorage.setItem('check13', check13status);
+		}
+
+		function check14() {
+
+		var check14status = document.getElementById("check14").checked;
+		document.getElementById("check14").checked = check14status ;
+		localStorage.setItem('check14', check14status);
+		}
+		
+		function check15() {
+
+		var check15status = document.getElementById("check15").checked;
+		document.getElementById("check15").checked = check15status ;
+		localStorage.setItem('check15', check15status);
+		}
+		
+		function check16() {
+
+		var check16status = document.getElementById("check16").checked;
+		document.getElementById("check16").checked = check16status ;
+		localStorage.setItem('check16', check16status);
+		}
+		
+		function check17() {
+
+		var check17status = document.getElementById("check17").checked;
+		document.getElementById("check17").checked = check17status ;
+		localStorage.setItem('check17', check17status);
+		}
+		
+		function check18() {
+
+		var check18status = document.getElementById("check18").checked;
+		document.getElementById("check18").checked = check18status ;
+		localStorage.setItem('check18', check18status);
+		}
+		
+		function check19() {
+
+		var check19status = document.getElementById("check19").checked;
+		document.getElementById("check19").checked = check19status ;
+		localStorage.setItem('check19', check19status);
+		}
+
+		function check20() {
+
+		var check20status = document.getElementById("check20").checked;
+		document.getElementById("check20").checked = check20status ;
+		localStorage.setItem('check20', check20status);
+		}
+
+		function check21() {
+
+		var check21status = document.getElementById("check21").checked;
+		document.getElementById("check21").checked = check21status ;
+		localStorage.setItem('check21', check21status);
+		}  
+
+		function check22() {
+
+		var check22status = document.getElementById("check22").checked;
+		document.getElementById("check22").checked = check22status ;
+		localStorage.setItem('check22', check22status);
+		}
+
+		function check23() {
+
+		var check23status = document.getElementById("check23").checked;
+		document.getElementById("check23").checked = check23status ;
+		localStorage.setItem('check23', check23status);
+		}
+
+		function check24() {
+
+		var check24status = document.getElementById("check24").checked;
+		document.getElementById("check24").checked = check24status ;
+		localStorage.setItem('check24', check24status);
+		}
+
+		function check25() {
+
+		var check25status = document.getElementById("check25").checked;
+		document.getElementById("check25").checked = check25status ;
+		localStorage.setItem('check25', check25status);
+		}
+
+		function check26() {
+
+		var check26status = document.getElementById("check26").checked;
+		document.getElementById("check26").checked = check26status ;
+		localStorage.setItem('check26', check26status);
+		}
+
+		function check27() {
+
+		var check27status = document.getElementById("check27").checked;
+		document.getElementById("check27").checked = check27status ;
+		localStorage.setItem('check27', check27status);
+		}
+
+		function check28() {
+
+		var check28status = document.getElementById("check28").checked;
+		document.getElementById("check28").checked = check28status ;
+		localStorage.setItem('check28', check28status);
+		}
+
+		function check29() {
+
+		var check29status = document.getElementById("check29").checked;
+		document.getElementById("check29").checked = check29status ;
+		localStorage.setItem('check29', check29status);
+		}
+
+		function check30() {
+
+		var check30status = document.getElementById("check30").checked;
+		document.getElementById("check30").checked = check30status ;
+		localStorage.setItem('check30', check30status);
+		}
+
+		function check31() {
+
+		var check31status = document.getElementById("check31").checked;
+		document.getElementById("check31").checked = check31status ;
+		localStorage.setItem('check31', check31status);
+		}
+
+		function check32() {
+
+		var check32status = document.getElementById("check32").checked;
+		document.getElementById("check32").checked = check32status ;
+		localStorage.setItem('check32', check32status);
+		}
+
+		function check33() {
+
+		var check33status = document.getElementById("check33").checked;
+		document.getElementById("check33").checked = check33status ;
+		localStorage.setItem('check33', check33status);
+		}
+
+		function check34() {
+
+		var check34status = document.getElementById("check34").checked;
+		document.getElementById("check34").checked = check34status ;
+		localStorage.setItem('check34', check34status);
+		}
+
+		function check35() {
+
+		var check35status = document.getElementById("check35").checked;
+		document.getElementById("check35").checked = check35status ;
+		localStorage.setItem('check35', check35status);
+		}
+		
+		function check36() {
+
+		var check36status = document.getElementById("check36").checked;
+		document.getElementById("check36").checked = check36status ;
+		localStorage.setItem('check36', check36status);
+		}
+		
+		function check37() {
+
+		var check37status = document.getElementById("check37").checked;
+		document.getElementById("check37").checked = check37status ;
+		localStorage.setItem('check37', check37status);
+		}
+		
+		function check38() {
+
+		var check38status = document.getElementById("check38").checked;
+		document.getElementById("check38").checked = check38status ;
+		localStorage.setItem('check38', check38status);
+		}
+		
+		function check39() {
+
+		var check39status = document.getElementById("check39").checked;
+		document.getElementById("check39").checked = check39status ;
+		localStorage.setItem('check39', check39status);
+		}
+		
+		function check40() {
+
+		var check40status = document.getElementById("check40").checked;
+		document.getElementById("check40").checked = check40status ;
+		localStorage.setItem('check40', check40status);
+		}
+		
+		function check41() {
+
+		var check41status = document.getElementById("check41").checked;
+		document.getElementById("check41").checked = check41status ;
+		localStorage.setItem('check41', check41status);
+		}
+		
+		function check42() {
+
+		var check42status = document.getElementById("check42").checked;
+		document.getElementById("check42").checked = check42status ;
+		localStorage.setItem('check42', check42status);
+		}
+		
+		function check43() {
+
+		var check43status = document.getElementById("check43").checked;
+		document.getElementById("check43").checked = check43status ;
+		localStorage.setItem('check43', check43status);
+		}
+		
+		function check44() {
+
+		var check44status = document.getElementById("check44").checked;
+		document.getElementById("check44").checked = check44status ;
+		localStorage.setItem('check44', check44status);
+		}
+		
+		function check45() {
+
+		var check45status = document.getElementById("check45").checked;
+		document.getElementById("check45").checked = check45status ;
+		localStorage.setItem('check45', check45status);
+		}
+		
+		function check46() {
+
+		var check46status = document.getElementById("check46").checked;
+		document.getElementById("check46").checked = check46status ;
+		localStorage.setItem('check46', check46status);
+		}
+		
+		function check47() {
+
+		var check47status = document.getElementById("check47").checked;
+		document.getElementById("check47").checked = check47status ;
+		localStorage.setItem('check47', check47status);
+		}
+		
+		function check48() {
+
+		var check48status = document.getElementById("check48").checked;
+		document.getElementById("check48").checked = check48status ;
+		localStorage.setItem('check48', check48status);
+		}
+		
+		function check49() {
+
+		var check49status = document.getElementById("check49").checked;
+		document.getElementById("check49").checked = check49status ;
+		localStorage.setItem('check49', check49status);
+		}
+		
+		function check50() {
+
+		var check50status = document.getElementById("check50").checked;
+		document.getElementById("check50").checked = check50status ;
+		localStorage.setItem('check50', check50status);
+		}
+		
+		function check51() {
+
+		var check51status = document.getElementById("check51").checked;
+		document.getElementById("check51").checked = check51status ;
+		localStorage.setItem('check51', check51status);
+		}
+		
+		function check52() {
+
+		var check52status = document.getElementById("check52").checked;
+		document.getElementById("check52").checked = check52status ;
+		localStorage.setItem('check52', check52status);
+		}
+		
+		function check53() {
+
+		var check53status = document.getElementById("check53").checked;
+		document.getElementById("check53").checked = check53status ;
+		localStorage.setItem('check53', check53status);
+		}
+		
+		function check54() {
+
+		var check54status = document.getElementById("check54").checked;
+		document.getElementById("check54").checked = check54status ;
+		localStorage.setItem('check54', check54status);
+		}
+		
+		function check55() {
+
+		var check55status = document.getElementById("check55").checked;
+		document.getElementById("check55").checked = check55status ;
+		localStorage.setItem('check55', check55status);
+		}
+		
+		function check56() {
+
+		var check56status = document.getElementById("check56").checked;
+		document.getElementById("check56").checked = check56status ;
+		localStorage.setItem('check56', check56status);
+		}
+		
+		function check57() {
+
+		var check57status = document.getElementById("check57").checked;
+		document.getElementById("check57").checked = check57status ;
+		localStorage.setItem('check57', check57status);
+		}
+		
+		function check58() {
+
+		var check58status = document.getElementById("check58").checked;
+		document.getElementById("check58").checked = check58status ;
+		localStorage.setItem('check58', check58status);
+		}
+		
+		function check59() {
+
+		var check59status = document.getElementById("check59").checked;
+		document.getElementById("check59").checked = check59status ;
+		localStorage.setItem('check59', check59status);
+		}
+		
+		function check60() {
+
+		var check60status = document.getElementById("check60").checked;
+		document.getElementById("check60").checked = check60status ;
+		localStorage.setItem('check60', check60status);
+		}
+	
+		</script>	
+
+		<script>
+			function riscaModal(modalID) {
+				const modal = document.getElementById(modalID);
+				modal.classList.add('riscar');
+			}
+			
+			function desriscaModal(modalIDD) {
+				const modal = document.getElementById(modalIDD);
+				modal.classList.remove('riscar');
+			}
+			
+			var checkbox0 = document.querySelector("input[name=toscana]");
+			var checkbox1 = document.querySelector("input[name=gguisada]");
+			var checkbox2 = document.querySelector("input[name=cguisada]");
+			var checkbox3 = document.querySelector("input[name=gassada]");
+			var checkbox4 = document.querySelector("input[name=bife]");
+			var checkbox5 = document.querySelector("input[name=csol]");
+			var checkbox6 = document.querySelector("input[name=acharque]");
+			var checkbox7 = document.querySelector("input[name=asol]");
+			var checkbox8 = document.querySelector("input[name=cmolho]");
+			var checkbox9 = document.querySelector("input[name=cassado]");
+			var checkbox10 = document.querySelector("input[name=pfrango]");
+			var checkbox11 = document.querySelector("input[name=lfrango]");
+			var checkbox12 = document.querySelector("input[name=lcarne]");
+			var checkbox13 = document.querySelector("input[name=pcoco]");
+			var checkbox14 = document.querySelector("input[name=pfrito]");
+			var checkbox15 = document.querySelector("input[name=mvaca]");
+			var checkbox16 = document.querySelector("input[name=figado]");
+			var checkbox17 = document.querySelector("input[name=bisteca]");
+			var checkbox18 = document.querySelector("input[name=toseco]");
+			var checkbox19 = document.querySelector("input[name=gageco]");
+			var checkbox20 = document.querySelector("input[name=gaaeco]");
+			var checkbox21 = document.querySelector("input[name=figeco]");
+			var checkbox22 = document.querySelector("input[name=careco]");
+			
+			checkbox0.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('toscana');
+				} else {
+					desriscaModal('toscana');
+				}
+			});
+			checkbox1.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('gguisada');
+				} else {
+					desriscaModal('gguisada');
+				}
+			});
+			checkbox2.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('cguisada');
+				} else {
+					desriscaModal('cguisada');
+				}
+			});
+			checkbox3.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('gassada');
+				} else {
+					desriscaModal('gassada');
+				}
+			});
+			checkbox4.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('bife');
+				} else {
+					desriscaModal('bife');
+				}
+			});
+			checkbox5.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('csol');
+				} else {
+					desriscaModal('csol');
+				}
+			});
+			checkbox6.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('segunda1');
+				} else {
+					desriscaModal('segunda1');
+				}
+			});
+			checkbox7.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('segunda2');
+				} else {
+					desriscaModal('segunda2');
+				}
+			});
+			checkbox8.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('terca1');
+				} else {
+					desriscaModal('terca1');
+				}
+			});
+			checkbox9.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('terca2');
+				} else {
+					desriscaModal('terca2');
+				}
+			});
+			checkbox10.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('quarta');
+				} else {
+					desriscaModal('quarta');
+				}
+			});
+			checkbox11.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('quinta1');
+				} else {
+					desriscaModal('quinta1');
+				}
+			});
+			checkbox12.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('quinta2');
+				} else {
+					desriscaModal('quinta2');
+				}
+			});
+			checkbox13.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('sexta1');
+				} else {
+					desriscaModal('sexta1');
+				}
+			});
+			checkbox14.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('sexta2');
+				} else {
+					desriscaModal('sexta2');
+				}
+			});
+			checkbox15.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('sabado');
+				} else {
+					desriscaModal('sabado');
+				}
+			});
+			checkbox16.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('extra11');
+				} else {
+					desriscaModal('extra11');
+				}
+			});
+			checkbox17.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('extra22');
+				} else {
+					desriscaModal('extra22');
+				}
+			});
+			
+			checkbox18.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('Alecotos2');
+				} else {
+					desriscaModal('Alecotos2');
+				}
+			});
+			
+			checkbox19.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('Alecogag2');
+				} else {
+					desriscaModal('Alecogag2');
+				}
+			});
+			
+			checkbox20.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('Alecogaa2');
+				} else {
+					desriscaModal('Alecogaa2');
+				}
+			});
+			
+			checkbox21.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('Alecofig2');
+				} else {
+					desriscaModal('Alecofig2');
+				}
+			});
+			
+			checkbox22.addEventListener('change', function() {
+				if (this.checked) {
+					riscaModal('Alecocar2');
+				} else {
+					desriscaModal('Alecocar2');
+				}
+			});
+			
+		</script>
+
+	<footer id="rodape">
+		<h4 style="text-align:center;" "text-decoration: line-through"><span style="color: #307242" "font-size:20px";> </span></h4>
+	</footer>
+
+</div>
+
+</body>	
+
+</html>

@@ -1,0 +1,268 @@
+@charset "UTF-8";
+
+body {
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+}
+/*Formatção Interface */
+div#interfacepa {
+	width: 900px;
+	background-color: #ffffff;
+	margin: 10px auto 5px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	padding: 0px 10px 15px 20px;
+}
+
+/*Formatção Cabeçalho */
+header#cabecalhopa img#icone {
+	position: relative;
+	left: 350px;	
+}
+header#cabecalhopa {
+	border-bottom: 1px #606060 solid;
+	height: 160px;
+}
+header#cabecalhopa h1 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0;
+	color: #0000FF;
+}
+header#cabecalhopa h2 {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #4F4F4F;
+	line-height: 0.5;
+}
+
+/*Formatção corpo interfacepa */
+section#corpo {
+	display: black;
+	width: 450px;
+	float: left;
+	
+	
+}
+aside#lateral {
+	display: black;
+	width: 450px;
+	float: right;
+	
+	
+}
+footer#rodape {
+	clear: both; 
+	
+}
+
+
+/*Formatção Painel Almoço */
+
+header#painelalmoco h1 {
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	color: #4F4F4F;
+	line-height: 0.2;	
+}
+header#painelalmoco h2 {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 0.7;
+	color: #307242;
+}
+
+header#painelalmoco h3 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 0.1;
+	color: black;
+}
+
+
+/*Formatção MODAL */
+.modal-container {
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0,0,0,.5);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		s-index: 2000;
+		display: none;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.modal-container.mostrar {
+		display: flex;
+	}
+
+	.modal {
+		background:;
+		width: 98%;
+		min-width: 300px;
+		padding: 1px;
+		height: 10%;
+		
+	}
+	
+	@keyframes modal {
+		from {
+			opacity: 0;
+			transform: translate3d(0, -60px, 0);
+		}
+		to {
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	
+	.mostrar .modal {
+		animation: modal 3s;
+	}
+	
+	
+	
+	
+/*Formatção Mostrar item */	
+	.modal-toscana.mostrar {
+		display: none;
+	}
+	.modal-gguisada.mostrar {
+		display: none;
+	}
+	.modal-cguisada.mostrar {
+		display: none;
+	}
+	.modal-gassada.mostrar {
+		display: none;
+	}
+	.modal-bife.mostrar {
+		display: none;
+	}
+	.modal-csol.mostrar {
+		display: none;
+	}
+	.modal-segunda.mostrar {
+		display: none;
+	}
+	.modal-segundas.mostrar {
+		display: none;
+	}
+	.modal-terca.mostrar {
+		display: none;
+	}
+	.modal-tercas.mostrar {
+		display: none;
+	}
+	.modal-quarta.mostrar {
+		display: none;
+	}
+	.modal-quinta.mostrar {
+		display: none;
+	}
+	.modal-quintas.mostrar {
+		display: none;
+	}
+	.modal-sexta.mostrar {
+		display: none;
+	}
+	.modal-sextas.mostrar {
+		display: none;
+	}
+	.modal-sabado.mostrar {
+		display: none;
+	}
+	.modal-extra1.mostrar {
+		display: none;
+	}
+	.modal-extra2.mostrar {
+		display: none;
+	}
+	.modal-Alecotos.mostrar {
+		display: none;
+	}
+	.modal-Alecogag.mostrar {
+		display: none;
+	}
+	.modal-Alecogaa.mostrar {
+		display: none;
+	}
+	.modal-Alecofig.mostrar {
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+/*Formatção riscar item */	
+	.modal-atoscana.riscar {
+		text-decoration: line-through;
+	}
+	.modal-agguisada.riscar {
+		text-decoration: line-through;
+	}
+	.modal-acguisada.riscar {
+		text-decoration: line-through;
+	}
+	.modal-agassada.riscar {
+		text-decoration: line-through;
+	}
+	.modal-abife.riscar {
+		text-decoration: line-through;
+	}
+	.modal-acsol.riscar {
+		text-decoration: line-through;
+	}
+	.modal-segunda1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-segunda2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-terca1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-terca2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-quarta.riscar {
+		text-decoration: line-through;
+	}
+	.modal-quinta1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-quinta2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-sexta1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-sexta2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-sabado.riscar {
+		text-decoration: line-through;
+	}
+	.modal-extra11.riscar {
+		text-decoration: line-through;
+	}
+	.modal-extra22.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecotos2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecogag2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecogaa2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecofig2.riscar {
+		text-decoration: line-through;
+	}
+	

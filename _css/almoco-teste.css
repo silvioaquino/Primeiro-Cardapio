@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+body {
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+}
+
+div#interfaceal {
+	width: 750px;
+	background-color: #ffffff;
+	margin: 5px auto 5px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	padding: 1px;
+}
+
+header#cabecalhoal img#icone {
+	position: relative;
+	left: 250px;
+	top: 0px;
+	
+}	
+
+header#cabecalhoal {
+	border-bottom: 1px #606060 solid;
+	height: 140px;
+}
+header#cabecalhoal h2 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #606060;
+	line-height: 0;
+}
+
+header#cardapio h1 {
+	font-family: Arial, sans-serif;
+	font-size: 45px;
+	color: #0000FF;
+	line-height: 0.5;
+	
+}
+header#cardapio h2 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	line-height: 0.3;
+	
+	
+}
+header#cardapio p {
+	font-size: 10px;
+	text-indent: 50px;
+	line-height: 0.3;
+}
+header#cardapio h3 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	line-height: 0.3;
+}
+header#cardapio h4 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 0.1;
+	color: #0000FF;
+
+}
+header#cardapio h5 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	line-height: 0;
+	color: 	rgba(30, 128, 11, 0.767);
+	
+}
+
+/*Formatção wifi */
+
+header#wifi h1 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	color: 	blue;
+	line-height: 0.5;
+	
+}
+
+/*Formatção Menu */
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	left: 500px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+	
+}
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+	
+}
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: 
+}
+
+
+footer#rodape {
+	clear: both;
+}
+
+/*Formatção MODAL */
+.modal-container {
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0,0,0,.5);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		s-index: 2000;
+		display: none;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.modal-container.mostrar {
+		display: flex;
+	}
+
+	.modal {
+		background:;
+		width: 99%;
+		height:10%;
+		min-width: 300px;
+		padding: 1px;
+		
+		
+	}
+	
+	@keyframes modal {
+		from {
+			opacity: 0;
+			transform: translate3d(0, -60px, 0);
+		}
+		to {
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	
+	.mostrar .modal {
+		animation: modal 3s;
+	}
+	
+	/*Formatção Mostrar item */	
+	.modal-toscana.mostrar {
+		display: none;
+	}
+	.modal-gguisada.mostrar {
+		display: none;
+	}
+	.modal-cguisada.mostrar {
+		display: none;
+	}
+	.modal-gassada.mostrar {
+		display: none;
+	}
+	.modal-bife.mostrar {
+		display: none;
+	}
+	.modal-csol.mostrar {
+		display: none;
+	}
+	.modal-segunda.mostrar {
+		display: none;
+	}
+	.modal-segundas.mostrar {
+		display: none;
+	}
+	.modal-terca.mostrar {
+		display: none;
+	}
+	.modal-tercas.mostrar {
+		display: none;
+	}
+	.modal-quarta.mostrar {
+		display: none;
+	}
+	.modal-quinta.mostrar {
+		display: none;
+	}
+	.modal-quintas.mostrar {
+		display: none;
+	}
+	.modal-sexta.mostrar {
+		display: none;
+	}
+	.modal-sextas.mostrar {
+		display: none;
+	}
+	.modal-sabado.mostrar {
+		display: none;
+	}
+	.modal-extra1.mostrar {
+		display: none;
+	}
+	.modal-extra2.mostrar {
+		display: none;
+	}
+	.modal-Alecotos.mostrar {
+		display: none;
+	}
+	.modal-Alecogag.mostrar {
+		display: none;
+	}
+	.modal-Alecogaa.mostrar {
+		display: none;
+	}
+	.modal-Alecofig.mostrar {
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+	
+/*Formatção riscar item */	
+	.modal-atoscana.riscar {
+		text-decoration: line-through;
+	}
+	.modal-agguisada.riscar {
+		text-decoration: line-through;
+	}
+	.modal-acguisada.riscar {
+		text-decoration: line-through;
+	}
+	.modal-agassada.riscar {
+		text-decoration: line-through;
+	}
+	.modal-abife.riscar {
+		text-decoration: line-through;
+	}
+	.modal-acsol.riscar {
+		text-decoration: line-through;
+	}
+	.modal-segunda1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-segunda2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-terca1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-terca2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-quarta3.riscar {
+		text-decoration: line-through;
+	}
+	.modal-quinta1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-quinta2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-sexta1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-sexta2.riscar {
+		text-decoration: line-through;
+	}
+	.modal-sabado.riscar {
+		text-decoration: line-through;
+	}
+	.modal-extra11.riscar {
+		text-decoration: line-through;
+	}
+	.modal-extra22.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecotos1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecogag1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecogaa1.riscar {
+		text-decoration: line-through;
+	}
+	.modal-Alecofig1.riscar {
+		text-decoration: line-through;
+	}

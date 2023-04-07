@@ -1,0 +1,326 @@
+@charset "UTF-8";
+
+body {
+  /*margin: 0;*/
+  /*background: #000;*/
+  background-color: #dddddd;
+  color: rgba(0,0,0,1); 	
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+#polina { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:100; 
+  background: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: .3rem;
+}
+#polina button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#polina button:hover { 
+   background: rgba(0,0,0,0.5);
+}
+
+a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background:rgba(0,0,0,0.5);
+  padding: .5rem;
+  transition: .6s background; 
+}
+a:hover{
+  background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+  div{width:80%;} 
+}
+@media screen and (max-device-width: 767px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+
+/*div#interfaceal {
+	width: 750px;
+	background-color: #ffffff;
+	margin: 5px auto 5px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	padding: 1px;
+}*/
+div#interfaceja {
+	width: 767px;
+	background-color: #ffffff;
+	margin: 5px auto 5px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	padding: 1px;
+}
+
+
+
+
+/*header#cabecalhoal img#icone {
+	position: relative;
+	left: 250px;
+	top: 0px;
+	
+}	
+
+header#cabecalhoal {
+	border-bottom: 1px #606060 solid;
+	height: 140px;
+}
+header#cabecalhoal h2 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #606060;
+	line-height: 0;
+}*/
+
+header#cabecalhoja img#icone {
+	position: relative;
+	left: 100px;	
+}
+header#cabecalhoja {
+	border-bottom: 1px #606060 solid;
+	height: 165px;
+}
+header#cabecalhoja h1 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 0;
+}
+header#cabecalhoja h2 {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #606060;
+	line-height: 0.8;
+}
+
+header#cardapio h1 {
+	font-family: Arial, sans-serif;
+	font-size: 45px;
+	color: #307242;
+	line-height: 0.2;
+	
+}
+header#cardapio h2 {
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+	line-height: 0.7;
+	
+}
+header#cardapio p {
+	font-size: 10px;
+	text-indent: 50px;
+	line-height: 0.3;
+}
+header#cardapio h3 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	line-height: 0.5;
+}
+header#cardapio h4 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0.1;
+
+}
+
+header#cardapionoite h1 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #307242;
+	line-height: 0.2;	
+}
+header#cardapionoite h2 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0.1;
+	color: #307242;
+}
+header#cardapionoite p {
+	font-size: 10px;
+	text-indent: 50px;
+	line-height: 0.3;
+}
+header#cardapionoite h3 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0.6;
+}
+header#cardapionoite h4 {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 0;
+
+}
+header#cardapionoite h5 {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 0;
+	color: #307242;
+}	
+header#cardapionoite h6 {
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+	line-height: 0.1;
+}
+header#sopas {
+	border-bottom: 1px #606060 solid;
+	height: 400px;
+}
+
+header#wraps {
+	border-bottom: 1px #606060 solid;
+	height: 110px;
+}
+header#wraps h1 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: red;
+	line-height: 0.2;	
+}
+header#wraps h2 {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 0;
+}
+header#wraps h3 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: #307242;
+	line-height: 0;
+}
+header#wraps h4 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: red;
+	line-height: 0;
+}
+
+header#wraps h5 {
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	color: red;
+	line-height: 0.1;
+}
+header#jantas h1 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	color: #307242;
+	line-height: 0.2;	
+}
+header#jantas h2 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0.7;
+	color: #307242;
+}
+header#jantas p {
+	font-size: 50px;
+	text-indent: 30px;
+	line-height: 0.1;
+}
+header#jantas h3 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0.5;
+}
+header#jantas h4 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	line-height: 0;
+
+}
+header#jantas h5 {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	line-height: 0;
+	color: red;
+}	
+header#jantas h6 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	line-height: 0.1;
+}
+/*Formatção Menu */
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	left: 700px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+	
+}
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+	
+}
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: 
+}
+
+
+footer#rodape {
+	clear: both;
+}

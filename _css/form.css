@@ -1,0 +1,267 @@
+@charset "UTF-8";
+
+body {
+	background-color: #dddddd;
+	color: rgba(0,0,0,1);
+}
+/*Formatção Interface */
+div#interfaceja {
+	width: 750px;
+	background-color: #ffffff;
+	margin: 5px auto 5px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+	padding: 1px;
+}
+
+/*Formatção Cabeçalho */
+header#cabecalhoja img#icone {
+	position: relative;
+	left: 250px;	
+}
+header#cabecalhoja {
+	border-bottom: 1px #606060 solid;
+	height: 170px;
+}
+header#cabecalhoja h1 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	line-height: 0;
+	color: #0000FF;
+}
+header#cabecalhoja h2 {
+	font-family: Arial, sans-serif;
+	font-size: 40px;
+	color: #4F4F4F;
+	line-height: 0.5;
+}
+
+/*Formatção Cardapio */
+header#cardapionoite h1 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	color:;
+	line-height: 0.1;	
+}
+header#cardapionoite h2 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0.1;
+	color:;
+}
+header#cardapionoite p {
+	font-size: 15px;
+	text-indent: 50px;
+	line-height: 0.3;
+}
+header#cardapionoite h3 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	line-height: 0.6;
+}
+header#cardapionoite h4 {
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+	line-height: 0;
+
+}
+header#cardapionoite h5 {
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+	line-height: 0;
+	color: #307242;
+}	
+header#cardapionoite h6 {
+	font-family: Arial, sans-serif;
+	font-size: 28px;
+	line-height: 0.1;
+}
+
+/*Formatção Sopas */
+header#sopas {
+	border-bottom: 1px #606060 solid;
+	height: 500px;
+}
+
+/*Formatção Wrap */
+header#wraps {
+	border-bottom: 1px #606060 solid;
+	height: 150px;
+}
+header#wraps h1 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	color: red;
+	line-height: 0.2;	
+}
+header#wraps h2 {
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	color: #000000;
+	line-height: 0;
+}
+header#wraps h3 {
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+	color: blue;
+	line-height: -0.5;
+}
+header#wraps h4 {
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+	color: red;
+	line-height: 0;
+}
+
+header#wraps h5 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: red;
+	line-height: -0.1;
+}
+
+/*Formatção Jantas */
+
+header#jantas {
+	border-bottom: 1px #606060 solid;
+	height: 350px;
+}
+
+header#jantas h1 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	color: #0000FF;
+	line-height: 0.2;	
+}
+header#jantas h2 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	line-height: 0.7;
+	color: #307242;
+}
+header#jantas p {
+	font-size: 55px;
+	text-indent: 35px;
+	line-height: 0.1;
+}
+header#jantas h3 {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	line-height: 0.5;
+}
+header#jantas h4 {
+	font-family: Arial, sans-serif;
+	font-size: 25px;
+	line-height: 0;
+
+}
+header#jantas h5 {
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+	line-height: 0;
+	color: red;
+}	
+header#jantas h6 {
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	line-height: 0.1;
+}
+
+/*Formatção wifi */
+
+header#wifi h1 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	color: 	blue;
+	line-height: 0.5;
+	
+}
+
+
+/*Formatção Menu */
+
+nav#menu {
+	display: block;
+}
+
+nav#menu ul{
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 0px;
+	left: 500px;
+}
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	transition: background-color 1s;
+	
+}
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+	
+}
+nav#menu a:hover {
+	color: #ffffff;
+	text-decoration: 
+}
+/*Formatção Rodape */
+
+footer#rodape {
+	clear: both;
+}
+
+/*Formatção MODAL */
+.modal-container {
+		width: 100vw;
+		height: 100vh;
+		background: rgba(0,0,0,.5);
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		s-index: 2000;
+		display: none;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.modal-container.mostrar {
+		display: flex;
+	}
+
+	.modal {
+		background:;
+		width: 98%;
+		min-width: 300px;
+		padding: 1px;
+		height: 10%;
+		
+	}
+	
+	@keyframes modal {
+		from {
+			opacity: 0;
+			transform: translate3d(0, -60px, 0);
+		}
+		to {
+			opacity: 1;
+			transform: translate3d(0, 0, 0);
+		}
+	}
+	
+	.mostrar .modal {
+		animation: modal 3s;
+	}
+	
+	.modal-carne.riscar {
+		text-decoration: line-through;
+	}
